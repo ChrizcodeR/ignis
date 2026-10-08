@@ -176,6 +176,8 @@ function serverStatusDefinition() {
     render: (setting) => {
       const ws = window.__ignis.ws;
 
+      setting.settingEl.addClass("ignis-status-setting");
+
       const dotEl = setting.controlEl.createEl("span", {
         cls: "ignis-status-dot",
       });

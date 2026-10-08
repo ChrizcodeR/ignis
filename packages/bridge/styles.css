@@ -12,6 +12,23 @@
   align-items: stretch;
 }
 
+.ignis-header-block .ignis-header {
+  align-self: stretch;
+}
+
+.is-phone .modal .setting-group .setting-item.ignis-status-setting {
+  flex-direction: row;
+  align-items: center;
+}
+
+.is-phone
+  .modal
+  .setting-group
+  .setting-item.ignis-status-setting
+  .setting-item-control {
+  width: auto;
+}
+
 .ignis-header-block .ignis-header-links {
   align-self: stretch;
   display: flex;
